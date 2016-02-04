@@ -29,4 +29,7 @@ Route::group(['middleware' => ['web']], function () {
         return view('welcome');
     });
     Route::controller('photo', 'PhotoController');
+    Route::controller('image', 'ImageController');
+    Route::controller('contact', 'ContactController');
+    Route::controller('client', 'ClientController');
 });
