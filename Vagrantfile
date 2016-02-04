@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-	config.vm.boot_timeout = 150
+	config.vm.boot_timeout = 1500
 
 	config.vm.box = "puppetlabs/debian-7.8-64-puppet"
 	# default password for user 'root': puppet
