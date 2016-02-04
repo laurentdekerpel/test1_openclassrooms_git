@@ -26,7 +26,7 @@
 Route::group(['middleware' => ['web']], function () {
     Route::get('/', ['uses' => 'WelcomeController@index', 'as' => 'home']);
     Route::get('/laurent', function() {
-        return view('vue1');
+        return view('welcome');
     });
     Route::controller('photo', 'PhotoController');
 });
